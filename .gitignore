@@ -1,0 +1,13 @@
+# Production
+dist/
+
+# Dependency directories
+node_modules/
+
+# Logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# General
+.DS_Store
