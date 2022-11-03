@@ -1,0 +1,27 @@
+{
+  "name": "checkmate-query",
+  "version": "0.1.0",
+  "description": "Light weight react-query implementation",
+  "main": "index.js",
+  "repository": "git@github.com:greenblues1190/checkmate-query.git",
+  "bugs": {
+    "url": "https://github.com/greenblues1190/checkmate-query/issues"
+  },
+  "keywords": [
+    "react-query",
+    "checkmate"
+  ],
+  "contributors": [
+    {
+      "name": "Jeongmin Woo",
+      "email": "greenblues1190@gmail.com",
+      "url": "https://woojeongmin.com"
+    },
+    {
+      "name": "Wooyeong Kam",
+      "email": "dndud5548@gmail.com",
+      "url": "https://kamwoo.tech"
+    }
+  ],
+  "license": "MIT"
+}
