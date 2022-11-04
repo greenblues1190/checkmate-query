@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import { queryClient } from "./QueryClientProvider";
+import { useQueryClient } from "./QueryClientProvider";
 import { MUTATION_STATUS } from "./constants";
 import { Variables, MutationOptions } from "./types";
 
@@ -16,6 +16,7 @@ export const useMutation = <
     retry = 0,
   }: Partial<MutationOptions<TData, TVariables>> = {}
 ) => {
+  const queryClient = useQueryClient();
   const [data, setData] = useState<TData>();
   const [error, setError] = useState<Error>();
   const [status, setStatus] = useState(MUTATION_STATUS.IDLE);

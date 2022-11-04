@@ -1,10 +1,8 @@
 export * from "./types";
 
-export {
-  queryClient,
-  useQueryClient,
-  QueryClientProvider,
-} from "./QueryClientProvider";
+export { QueryClient } from "./QueryClient";
+
+export { useQueryClient, QueryClientProvider } from "./QueryClientProvider";
 
 export { useQuery } from "./useQuery";
 
