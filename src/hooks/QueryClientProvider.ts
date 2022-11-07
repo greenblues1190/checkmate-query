@@ -1,5 +1,5 @@
 import { useContext, createContext } from "react";
-import type { QueryClient } from "./QueryClient";
+import type { QueryClient } from "../QueryClient";
 
 const defaultContext = createContext<QueryClient | undefined>(undefined);
 

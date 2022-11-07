@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef, useCallback } from "react";
 import { useQueryClient } from "./QueryClientProvider";
-import { QUERY_STATUS } from "./constants";
-import { QueryOptions } from "./types";
+import { QUERY_STATUS } from "../constants";
+import { QueryOptions } from "../types";
 
 export const useQuery = <TData = any>(
   key: (string | number)[],

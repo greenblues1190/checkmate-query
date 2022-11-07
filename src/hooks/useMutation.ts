@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import { useQueryClient } from "./QueryClientProvider";
-import { MUTATION_STATUS } from "./constants";
-import { Variables, MutationOptions } from "./types";
+import { MUTATION_STATUS } from "../constants";
+import { Variables, MutationOptions } from "../types";
 
 export const useMutation = <
   TData = any,

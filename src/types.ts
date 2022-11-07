@@ -1,4 +1,4 @@
-import { useQuery } from './useQuery';
+import { useQuery } from './hooks/useQuery';
 
 export type Variables = Record<string, any> | null;
 
